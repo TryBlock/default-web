@@ -1,0 +1,16 @@
+@use "./abstract/reset";
+@use "./abstract" as *;
+
+.app {
+  font-family: $font;
+  background-color: $second;
+  color: $lightGrey;
+  font-size: 2rem;
+}
+
+.app--center {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+} 
